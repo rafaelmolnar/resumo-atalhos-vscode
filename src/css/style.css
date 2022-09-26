@@ -1,0 +1,118 @@
+/* Header */
+header {
+    background-color: #373277;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 700px;
+    max-height: 360px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 60px;
+}
+/* Main title */
+h1, h2, .tip{
+    color: #373277;
+}
+/* Sections titles */
+.general-shortcut__title, .shortcut__title, .vscode-shortcut__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+/* Sections */
+.content-list {
+    font-size: 1em;
+    padding-bottom: 20px;
+    line-height: 1.3em;
+}
+
+.general-shortcut, .shortcut, .vscode-shortcut {
+    width: 90vw;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.general-shortcut__content, .shortcut__content, .vscode-shortcut__content  {
+    width: 575px;
+}
+/* Footer */
+.footer {
+    background-color: #373277;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer__container {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer .footer__author a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.footer img {
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 670px) {
+    .general-shortcut__content, .shortcut__content, .vscode-shortcut__content {
+        width: 575px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .general-shortcut__title, .shortcut__title, .vscode-shortcut__title {
+        font-size: 1.50em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 340px) {
+    .footer img {
+        height: 40px;
+        width: 40px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .general-shortcut__title, .shortcut__title, .vscode-shortcut__title {
+        font-size: 1.50em;
+    }
+
+    .footer .footer__author a {
+        font-size: 0.80em;
+    }
+}
